@@ -284,3 +284,78 @@ a button{
     font-size: 45px;
     margin: 50px 0px 0px 50px;
 }
+.work{
+    display: flex;
+}
+.human{
+    margin: 10% 10% 0% 10%;
+}
+.does{
+    display: flex;
+    margin: 5%;
+}
+.does p .fa-fire{
+    color: rgb(251,186,49);
+    border: none;
+    font-size: 30px;
+    margin-top: 1.5%;
+}
+.does p span .fa-fire{
+    color: rgb(67,160,144);
+}
+.does h2{
+    font-size: 11px;
+    color: rgb(96,171,161);
+    margin-top: 2%;
+}
+.does h1{
+    color: rgb(57,20,4);
+    margin: 15% 10% 0% 0%;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.empty{
+    border: 1px solid;
+    width: 1330px;
+    height: 10px;
+    background-color: rgb(204, 199, 199);
+    margin: 10% 10% 10% 0%;
+}
+.search-bar h3{
+    font-size: 50px;
+    color: rgb(23,28,40);
+    padding-left: 23%;
+    margin: 0px 247px 0px 0px;
+}
+.search-bar h3 span{
+    font-size: 17px;
+    color: rgb(23,28,40);
+    padding-left: 23%;
+    margin: 0px 247px 0px 0px;
+}
+.bar{
+    height: 15px;
+    width: 300px; 
+    margin-left: 33%;
+    margin-top: 1%;
+    border: 2px solid;
+    background-color: rgb(67,161,145);
+    border: none;
+    padding: 20px 30px 50px 150px;
+    border-radius: 25px;
+}
+.bar h1{
+    font-size: 18px;
+    padding: 5px 0px 5px 0px;
+    margin: 0% 70px 0% 0%;
+}
+.bar button{
+    /* padding: 1.8% 5% 2% 5%; */
+    background-color: rgb(81,132,249);
+    font-size: 19px;
+    color: #e7feff;
+    border-radius: 15px;
+    border: none;
+    margin: -7px -170px 0px 40px;
+    padding: 10px 30px 10px 30px;
+ }
