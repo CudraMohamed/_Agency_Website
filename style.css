@@ -478,3 +478,44 @@ a button{
     font-weight: bolder;
     font-size: 40px;
 }
+.end{
+    display: flex;
+}
+.form{
+    margin-left: 9%;
+}
+.fname{
+    margin-bottom: 5px;
+}
+.yname{
+    margin-bottom: 15px;
+}
+.yname ::placeholder{
+    color: rgb(148, 140, 140);
+}
+.wmsg ::placeholder{
+    color: rgb(148, 137, 137);
+}
+.end .ebtn button{
+    margin: 0px 0px 0px 0px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 55px;
+    border: none;
+    background-color: rgb(67,161,145);;
+    color: white;
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 17px;
+    box-shadow: 13px 13px 13px 2px rgb(249,235,240);
+}
+.limage{
+    width: 400px;
+    height: 400px;
+    border: none;
+    border-radius: 360px;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: -10%;
+    margin-bottom: 10%;
+    background-color: rgb(98,183,181);;
+}
