@@ -86,7 +86,6 @@ a button{
 }
 .btns{
     display: flex;
-    /* margin-left: 10%; */
 }
 .btns .contact{
     color: rgb(247, 246, 249);
@@ -111,17 +110,6 @@ a button{
     border: none;
     margin-bottom: 1%;
 }
-/* .dp{
-    border: 0.05px solid;
-    color: black;
-    font-size: 19px;
-    margin-left: 10%;
-    background-color: white;
-    padding: 5px 35px 18px 35px;
-    border-radius: 25px;
-    box-shadow: 13px 13px 13px 5px rgb(232,230,231);
-    margin-top: 25px;
-} */
 .words .dp span{
     color: rgb(59,22,4);
     font-weight: 500;
@@ -267,7 +255,7 @@ a button{
 }
 .boxes h3{
     margin: 40px 0px 0px 50px;
-    color: rgb(152,144,140);
+    color: rgb(144, 112, 95);
 }
 .boxes h2{
     margin: 50px 0px 0px 50px;
@@ -314,7 +302,6 @@ a button{
 .does{
     display: flex;
     margin-top: 7%;
-    /* margin: 5%; */
 }
 .does  #fire1{
     color: rgb(251,186,49);
@@ -370,7 +357,7 @@ a button{
     height: 10px;
     width: 470px;
     margin: 30% 7% 0% -35%;
-    padding: 2%;
+    padding: 2% 1% 2% -2%;
     border-radius: 25px;
 }
 .numb2{
@@ -379,20 +366,22 @@ a button{
     color: white;
     font-weight: bolder;
     font-size: 30px;
-    margin-right: 100%;
-    margin-left: -46px;
-    padding: 5px 17px 5px 15px;
+    margin-right: 96%;
+    margin-left: -33px;
+    padding: 5px 1px 5px 15px;
     margin-top: -4.5%;
 }
 .info2{
     color: rgb(68,42,33);
     font-size: 20px;
     font-weight: 700;
+    margin-top: -30px;
+    padding-left: 40px;
 }
 .row3{
     height: 10px;
     width: 470px;
-    margin: 40% 7% 0% -35%;
+    margin: 36% 7% 0% -35%;
     padding: 2%;
     border-radius: 25px;
 }
@@ -403,21 +392,24 @@ a button{
     font-weight: bolder;
     font-size: 30px;
     font-size: 30px;
-    margin-right: 113%;
-    margin-left: -92px;
-    padding: 5px 17px 5px 15px;
+    margin-right: 107%;
+    margin-left: -67px;
+    padding: 5px 30px 5px 17px;
     margin-top: -4.5%;
 }
 .info3{
     color: rgb(68,42,33);
     font-size: 20px;
     font-weight: 700;
+    margin-top: -30px;
+    margin-left: 7px;
 }
 .empty{
     width: 1245px;
     height: 10px;
     background-color: rgb(204, 199, 199);
     margin: 10% 10% 10% 0%;
+    box-shadow: 0 15px 2px -2px rgb(254,250,251);
 }
 .search-bar h3{
     font-size: 50px;
@@ -457,4 +449,32 @@ a button{
 }
 .bar{
     padding: 3px;   
+}
+.does2{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.does2  #fire1{
+    color: rgb(251,186,49);
+    border: none;
+    font-size: 30px;
+    margin-top: 1.5%;
+}
+.does2 #fire2{
+    color: rgb(67,160,144);
+    border: none;
+    font-size: 30px;
+    margin-top: 1.5%;
+}
+.does2 h2{
+    font-size: 15px;
+    color: rgb(96,171,161);
+    margin-top: 2.5%;
+}
+.does2 h1{
+    color: rgb(57,20,4);
+    margin: 7% 0% 0% -14.7%;
+    font-weight: bolder;
+    font-size: 40px;
 }
