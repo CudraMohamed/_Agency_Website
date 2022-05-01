@@ -86,6 +86,7 @@ a button{
 }
 .btns{
     display: flex;
+    margin-bottom: 10%;
 }
 .btns .contact{
     color: rgb(247, 246, 249);
@@ -118,7 +119,7 @@ a button{
 }
 .pic img{
    margin-left: 590px; 
-   margin-top: -320px;
+   margin-top: -350px;
    width: 600px;
    margin-right: 30px;
 }
@@ -514,8 +515,9 @@ a button{
     border: none;
     border-radius: 360px;
     margin-left: 10%;
-    margin-right: 0%;
+    margin-right: 10%;
     margin-top: -10%;
     margin-bottom: 10%;
-    background-color: rgb(98,183,181);;
+    background-color: rgb(98, 183, 181);
+    padding-right: 50px;
 }
