@@ -186,8 +186,6 @@ a button{
 .pageIcons{
     display: flex;
     margin-top: 2%;
-}
-.pageIcons{
     box-shadow: 0 4px 2px -2px rgb(237,232,227);
 }
 .slack{
@@ -196,6 +194,7 @@ a button{
 .prudential{
     margin: 5% 0% 0% 0%;
     padding-left: 120px;
+    opacity: 50%;
 }
 .microsoft{
     margin: 4% 0% 0% 0%;
@@ -336,9 +335,83 @@ a button{
 }
 .does h1{
     color: rgb(57,20,4);
-    margin: 13% 0% 0% -35%;
+    margin: 13% 0% 0% -45%;
     font-weight: bolder;
     font-size: 40px;
+}
+.row1{
+    box-shadow: 13px 13px 13px 13px rgb(241,241,241);
+    height: 10px;
+    width: 470px;
+    margin: 20% 7% 0% -35%;
+    padding: 2%;
+    border-radius: 25px;
+}
+.rownumb{
+    display: flex;
+}
+.numb1{
+    border-radius: 360px;
+    background-color: rgb(67,161,145);;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 7%;
+    padding: 5px 17px 5px 15px;
+    margin-top: -4.5%;
+    margin-left: 50;
+}
+.info1{
+    color: rgb(68,42,33);
+    font-size: 20px;
+    font-weight: 700;
+}
+.row2{
+    height: 10px;
+    width: 470px;
+    margin: 30% 7% 0% -35%;
+    padding: 2%;
+    border-radius: 25px;
+}
+.numb2{
+    border-radius: 360px;
+    background-color: rgb(83,134,249);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 100%;
+    margin-left: -46px;
+    padding: 5px 17px 5px 15px;
+    margin-top: -4.5%;
+}
+.info2{
+    color: rgb(68,42,33);
+    font-size: 20px;
+    font-weight: 700;
+}
+.row3{
+    height: 10px;
+    width: 470px;
+    margin: 40% 7% 0% -35%;
+    padding: 2%;
+    border-radius: 25px;
+}
+.numb3{
+    border-radius: 360px;
+    background-color: rgb(252,190,49);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-size: 30px;
+    margin-right: 113%;
+    margin-left: -92px;
+    padding: 5px 17px 5px 15px;
+    margin-top: -4.5%;
+}
+.info3{
+    color: rgb(68,42,33);
+    font-size: 20px;
+    font-weight: 700;
 }
 .empty{
     width: 1245px;
